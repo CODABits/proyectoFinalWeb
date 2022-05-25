@@ -1,5 +1,7 @@
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@900&family=Roboto:wght@300&display=swap");
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;500&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Work+Sans:wght@200;300;500&display=swap');
 
 body {
   margin: 0;
@@ -74,6 +76,7 @@ p {
 
 #boxMain{
     border: 2px solid red;
+  
 }
 
 #astronauta{
@@ -97,10 +100,36 @@ section {
   background-color: cadetblue;
   background-size: cover;
   border: solid rgb(238, 10, 86) 2px;
-  height: 1000px;
+  height: 1100px;
 }
 
 
+h2 {
+  font-size: 18px;
+  text-align: center;
+  font-weight: bold;
+}
+
+.textoProjecto{
+    font-family: 'Work Sans', sans-serif;
+    color: #040655;
+
+  
+}
+
+.tituloMenor{
+  color: #280775;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+}
+
+
+.letraProjecto{
+  color: #280775;
+  text-align: center;
+  font-family: 'Work Sans', sans-serif;
+  width: 100%;
+}
 
 .card-text{
     width: 100%;
@@ -120,7 +149,6 @@ h1 {
   font-size: 3em;
   text-align: center;
   padding:0.4px;
-  /*position: absolute; left: 40px; top: 40px;*/
 }
 
 .proyecto{
@@ -220,6 +248,8 @@ h1 {
     padding: 6px 24px;
     text-decoration: none;
     text-shadow: 0px 1px 0px #1570cd;
+    margin-right: 25%;
+    margin-left: 31%;
     
   }
   .myButtonProject:hover {
@@ -263,14 +293,12 @@ h1 {
 }
 
 #box2 {
-  /*background-image: url("https://cdn.glitch.global/fb0d9f80-0a53-4dd7-97b3-e8f4e7efc0ba/matrix-2-1024x716.png?v=1652314945513");*/
+ 
   background-repeat: no-repeat;
   background-size: cover;
   padding: 20px;
- /* display-direction: row;*/
   align-items: center;
   justify-content: space-around;
-  /*background: #9A0BD9;*/
   border: solid green 2px;
   height: 80Opx;
 }
@@ -299,10 +327,11 @@ h1 {
 .caja{
     flex-wrap: wrap;
     justify-content: stretch;
-     background: rgba(0,0,0,0,3);
+    /* background: rgba(0,0,0,0,3);*/
      width: 30%;
      height:50%;
      border: solid green 2px; 
+     background-color: whitesmoke;
   }
 
 
@@ -312,12 +341,6 @@ h1 {
     height: 18px;
     
 }
-
-/* #animation{
-  
-  display-direction:column;
-  text-align: center;
-} */
 
 
 
@@ -338,7 +361,15 @@ h1 {
 footer {
   border: solid red 2px;
   background-color: #2c3e50;
+  height: 50px;
+  
+}
+
+#copyrightFooter{
   text-align: center;
+  color: white;
+  font-size: 12px;
+  font-family: 'Work Sans', sans-serif;
 }
 
 @media screen and (max-width: 320px) {
